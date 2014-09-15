@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/LightBlue">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/sayac"
+            android:id="@+id/sayac"
+            android:layout_marginTop="187dp" android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" android:textSize="128sp" android:textStyle="bold"
+            android:textColor="@color/Coral"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sifirla"
+            android:id="@+id/sifirla_buton" android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"/>
+</RelativeLayout>
