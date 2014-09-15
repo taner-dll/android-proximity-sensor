@@ -19,7 +19,6 @@ public class AndroidProximitySensorActivity extends Activity {
     TextView textView;
     Button sifirla;
     int sayac;
-    private MediaPlayer mp;
 
     SensorManager mySensorManager;
     Sensor myProximitySensor;
@@ -147,6 +146,7 @@ public class AndroidProximitySensorActivity extends Activity {
 
                 textView.setText(new Integer(sayac).toString());
 
+                //TODO UI Tasarlanacak
 
 
             }
